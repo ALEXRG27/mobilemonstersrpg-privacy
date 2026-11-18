@@ -9,37 +9,53 @@
   h1 { font-size: 1.7rem; margin-bottom: 0; }
   .date { color: #66746b; margin-top: 4px; }
   h2 { font-size: 1.1rem; margin-top: 1.6em; }
+  nav { margin-top: 2em; color: #66746b; }
+  .box { background: #fff; border: 1px solid #d9d5c7; border-radius: 8px; padding: 4px 16px; }
 </style>
 </head>
 <body>
 <h1>MobileMonstersRPG – Privacy Policy</h1>
-<p class="date">Effective date: 3 November 2026</p>
+<p class="date">Effective date: 18 November 2026</p>
 
 <p>Alex Romagosa Girones ("we") built the game MobileMonstersRPG ("the App") for Android devices. This policy explains how the App handles information.</p>
 
-<h2>Information the App handles</h2>
-<p>The current version is designed for offline, single-player play. It does not require an account or connect to a game server. The App does not collect or send personal information to the publisher.</p>
+<h2>Information stored on your device</h2>
+<p>The App is a single-player game. It saves gameplay and preference data on your device, such as game progress, inventory and equipment, companion team and progress, character appearance, settings, and whether help content has been viewed. The game always works from this local save, with or without an Internet connection or an account.</p>
 
-<p>The App saves gameplay and preference data on your device, such as game progress, inventory and equipment, companion team and progress, character appearance, and whether help content has been viewed. This information is used to save and restore your game locally. The publisher does not receive it through the App.</p>
+<h2>Cloud save (optional backup of your progress)</h2>
+<p>To protect your progress, the App keeps a backup copy of your game progress in the cloud using <strong>Unity Gaming Services</strong> (Unity Authentication and Cloud Save), provided by Unity Technologies, which processes the data on our behalf:</p>
+<ul>
+  <li>When the App starts and is online, it creates an <strong>anonymous player ID</strong> for this installation. No name, e-mail or other personal details are asked for.</li>
+  <li>A copy of your game progress (the same data as the local save, without device settings) is linked to that player ID and sent over an encrypted (HTTPS) connection.</li>
+  <li><strong>Optional:</strong> in <em>OPTIONS → SAVE WITH GOOGLE</em> you can link your <strong>Google Play Games</strong> account. The App then receives your Google Play Games player identifier from Google, so the same progress can be restored on another device. You do not have to link an account to play.</li>
+</ul>
+<p>This data is used only to back up and restore your game (app functionality and account management). It is not used for advertising or analytics and is not sold or shared with third parties other than the service provider above. Google's handling of your Google Play Games account is described in Google's own privacy policy.</p>
 
-<p>The inspected build includes no advertising, in-app purchase, analytics, crash-reporting, or other third-party data-collection SDK. It requests no Internet permission and no sensitive Android runtime permissions. This policy must be checked against the final release build and updated if a future version adds a network feature, permission, or SDK that handles data.</p>
+<h2 id="delete-account">Deleting your cloud account and data</h2>
+<div class="box">
+<p><strong>In the App:</strong> open <em>OPTIONS → DELETE CLOUD ACCOUNT</em> and confirm. The cloud copy of your progress and your cloud player account (including the link to your Google Play Games account) are deleted, and the App stops sending data until you turn cloud save on again. The progress stored on your device is kept.</p>
+<p><strong>Without the App</strong> (for example if you no longer have it installed): send an e-mail to <a href="mailto:alex.romagosa.playstore@gmail.com?subject=MobileMonstersRPG%20-%20delete%20my%20account">alex.romagosa.playstore@gmail.com</a> with the subject "MobileMonstersRPG – delete my account". If you linked Google Play Games, include your Google Play Games gamer name, so we can find the account. We delete the account and all associated cloud data within 30 days and confirm by e-mail. No data is kept after deletion, except where the law requires it.</p>
+<p><strong>Local data:</strong> clear MobileMonstersRPG's storage in Android settings or uninstall the App.</p>
+</div>
 
-<h2>Storage, deletion, and backups</h2>
-<p>Gameplay data is stored in the App's local application data. You can remove that data by clearing MobileMonstersRPG's storage in Android settings or uninstalling the App. The App has no player account and the publisher has no account data to delete.</p>
-
+<h2>Backups by Android</h2>
 <p>Android, a device manufacturer, or a backup service may back up application data if backup is enabled in the device or account settings. Such backups are handled under the relevant operating-system or service settings and are not accessible to the publisher through MobileMonstersRPG.</p>
 
-<h2>Sharing and security</h2>
-<p>The App does not transmit the locally stored gameplay data to the publisher or share it with third parties. Since the App does not transmit that data, encryption in transit does not apply. The publisher cannot guarantee the security of the device or of backup services configured by the user.</p>
+<h2>Security</h2>
+<p>Cloud save data is transmitted encrypted (HTTPS) and stored by Unity Gaming Services. The publisher cannot guarantee the security of your device or of backup services configured by you.</p>
+
+<h2>What the App does not do</h2>
+<p>The App contains no advertising, in-app purchases, analytics or crash-reporting SDK, and requests no sensitive Android runtime permissions. It uses the Internet permission only for the cloud save described above.</p>
 
 <h2>Children</h2>
-<p>The App does not intentionally collect personal information from children or other players. The publisher does not receive personal information through the current offline release. The publisher intends the App for a general audience and not specifically for children. The target audience and any child-directed features must still be accurately declared in Google Play.</p>
+<p>The publisher intends the App for a general audience and not specifically for children. The App does not ask for personal details; the cloud save uses an anonymous player ID unless a player chooses to link a Google Play Games account.</p>
 
 <h2>Changes</h2>
 <p>This policy may be updated when the App's features or data practices change. Material changes will be reflected in the policy before the changed practices are released.</p>
 
 <h2>Contact</h2>
-<p>For privacy questions, contact:</p>
+<p>For privacy questions or account deletion requests, contact:</p>
 <p>Alex Romagosa Girones<br><a href="mailto:alex.romagosa.playstore@gmail.com">alex.romagosa.playstore@gmail.com</a></p>
+<p style="margin-top:2em;color:#66746b">Privacy Policy · <a href="terms.html">Terms of Service</a></p>
 </body>
 </html>
